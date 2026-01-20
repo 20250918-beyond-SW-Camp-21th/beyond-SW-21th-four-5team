@@ -50,7 +50,6 @@
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Axios](https://img.shields.io/badge/axios-%235A29E4.svg?style=for-the-badge&logo=axios&logoColor=white)
 
 ### Backend
@@ -186,10 +185,3 @@
 - `Jenkinsfile`에 정의된 파이프라인이 빌드 및 이미지 푸시 후, 본 저장소의 매니페스트(이미지 태그)를 업데이트하면 자동으로 배포가 수행됩니다.
 
 ---
-
-## 📜 License
-
-This project is licensed under the Apache 2.0 License.
-
----
-*Created by Gemini Agent*
