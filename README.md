@@ -12,12 +12,15 @@
 6. [Project Structure (프로젝트 구조)](#project-structure)
 7. [Getting Started (시작하기)](#getting-started)
 8. [Deployment (배포)](#deployment)
+9. [빌드 및 배포 문서 (Build & Deployment Docs)](#build-deployment-docs)
+10. [결과 화면 (Result Screens)](#result-screens)
+11. [회고록 (Retrospective)](#retrospective)
 
 ---
 
 ## 1. 👥 팀원 소개 (Team Info) <a id="team-info"></a>
 
-| <img src="https://github.com/Steve.png" width="100"> | <img src="https://github.com/Alo.png" width="100"> | <img src="https://github.com/steven.png" width="100"> | <img src="https://github.com/johnmayer.png" width="100"> | <img src="https://github.com/chris.png" width="100"> |
+| <img src="https://github.com/alice.png" width="100"> | <img src="https://github.com/Alo.png" width="100"> | <img src="https://github.com/steven.png" width="100"> | <img src="https://github.com/johnmayer.png" width="100"> | <img src="https://github.com/chris.png" width="100"> |
 | :---: | :---: | :---: | :---: | :---: |
 | **강윤혜** | **송형욱** | **이관호** | **이인재** | **진희헌** |
 | [@ChoiKYH](https://github.com/ChoiKYH) | [@haengguk](https://github.com/haengguk) | [@Apeirogon99](https://github.com/Apeirogon99) | [@INJAELEE99](https://github.com/INJAELEE99) | [@ucb1122](https://github.com/ucb1122) |
@@ -64,7 +67,11 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/argocd-%23eb5b46.svg?style=for-the-badge&logo=argo&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+### Collaboration & Design
+![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
 
@@ -183,5 +190,38 @@
 
 - **App of Apps**: `apps/` 디렉토리에 정의된 설정에 따라 ArgoCD가 클러스터의 상태를 Git 저장소와 동일하게 유지합니다.
 - `Jenkinsfile`에 정의된 파이프라인이 빌드 및 이미지 푸시 후, 본 저장소의 매니페스트(이미지 태그)를 업데이트하면 자동으로 배포가 수행됩니다.
+
+
+---
+
+## 9. 📄 빌드 및 배포 문서 (Build & Deployment Docs) <a id="build-deployment-docs"></a>
+
+> (내용을 입력해 주세요)
+
+---
+
+## 10. 🖥️ 결과 화면 (Result Screens) <a id="result-screens"></a>
+
+> (내용을 입력해 주세요)
+
+
+---
+
+## 11. 📝 회고록 (Retrospective) <a id="retrospective"></a>
+
+### 강윤혜
+> (내용을 입력해 주세요)
+
+### 송형욱
+> (내용을 입력해 주세요)
+
+### 이관호
+> (내용을 입력해 주세요)
+
+### 이인재
+> (내용을 입력해 주세요)
+
+### 진희헌
+> (내용을 입력해 주세요)
 
 ---
