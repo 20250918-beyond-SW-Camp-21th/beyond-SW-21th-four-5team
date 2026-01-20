@@ -3,15 +3,15 @@
 > **Voteland**는 사용자가 주제에 대해 투표하고 결과를 실시간으로 확인할 수 있는 **투표 플랫폼**입니다.
 > MSA(Microservices Architecture)를 지향하여 멀티 모듈로 구성된 Spring Boot 백엔드와 Vue.js 프론트엔드, 그리고 **GitOps(App of Apps)** 기반의 CI/CD 파이프라인을 구축한 것이 특징입니다.
 
-## 📑 목차 (Table of Contents)
+## 📑 목차
 1. [팀원 소개 (Team Info)](#team-info)
 2. [기획 의도 (Context)](#context)
 3. [핵심 기능 (Key Features)](#key-features)
-4. [Tech Stack](#tech-stack)
-5. [System Architecture (시스템 아키텍처)](#system-architecture)
-6. [Project Structure (프로젝트 구조)](#project-structure)
-7. [Getting Started (시작하기)](#getting-started)
-8. [Deployment (배포)](#deployment)
+4. [기술 스택 (Tech Stack)](#tech-stack)
+5. [시스템 아키텍처 (System Architecture)](#system-architecture)
+6. [프로젝트 구조 (Project Structure)](#project-structure)
+7. [시작하기 (Getting Started)](#getting-started)
+8. [배포 (Deployment)](#deployment)
 9. [빌드 및 배포 문서 (Build & Deployment Docs)](#build-deployment-docs)
 10. [결과 화면 (Result Screens)](#result-screens)
 11. [회고록 (Retrospective)](#retrospective)
@@ -48,7 +48,7 @@
 
 ---
 
-## 4. 🛠️ Tech Stack <a id="tech-stack"></a>
+## 4. 🛠️ 기술 스택 (Tech Stack) <a id="tech-stack"></a>
 
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
@@ -75,7 +75,7 @@
 
 ---
 
-## 5. 🏗️ System Architecture (시스템 아키텍처) <a id="system-architecture"></a>
+## 5. 🏗️ 시스템 아키텍처 (System Architecture) <a id="system-architecture"></a>
 
 ### 서비스 흐름 (Service Flow)
 1. **Client**: 사용자의 요청이 **Ingress Controller**로 전달됩니다.
@@ -95,7 +95,7 @@
 
 ---
 
-## 6. 📂 Project Structure (프로젝트 구조) <a id="project-structure"></a>
+## 6. 📂 프로젝트 구조 (Project Structure) <a id="project-structure"></a>
 
 이 프로젝트는 **애플리케이션 코드 저장소**와 **설정(Config) 저장소**로 역할이 나뉘어 있으며, 본 레포지토리는 설정 저장소에 해당합니다.
 
@@ -146,7 +146,7 @@
 
 ---
 
-## 7. 🚀 Getting Started (시작하기) <a id="getting-started"></a>
+## 7. 🚀 시작하기 (Getting Started) <a id="getting-started"></a>
 
 ### 필수 요구사항 (Prerequisites)
 - Java 17+
@@ -184,7 +184,7 @@
 
 ---
 
-## 8. 🚢 Deployment (배포) <a id="deployment"></a>
+## 8. 🚢 배포 (Deployment) <a id="deployment"></a>
 
 **GitOps (ArgoCD)** 를 통해 배포가 자동화되어 있습니다.
 
